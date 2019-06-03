@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-import Welcome from '../../components/Welcome'
+import { Container } from './styles'
+import LoginModal from './components/LoginModal'
 
 class Home extends Component {
   render() {
-    return <Welcome />
+    return (
+      <Container>
+        <LoginModal />
+      </Container>
+    )
   }
 }
 
